@@ -8,6 +8,7 @@ An interpreter is a program that executes the source code directly, rather than 
 
 In summary, a lexical analyzer breaks down the source code into tokens, a parser checks the structure of the source code, and an interpreter executes the source code. Together, these components form the heart of a compiler, which translates source code into machine code that can be run on a computer.
 
-To run the program you first run the make-file by typing `make` in your terminal then to write a test case do the following in your terminal `make run filename=test.txt`. Finally to clean up after looking at the program run `make clean`
+To run the program you first run the make-file by typing `make` in your terminal then to write a test case do the following in your terminal `make run filename=test.txt`. For example `make run filename=Test_Cases/cleanprog`.
+Finally to clean up after looking at the program run `make clean`.
 
 In addition in the Test_cases directory you can see the inputs as well as the correct outputs.
